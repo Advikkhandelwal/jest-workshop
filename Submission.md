@@ -11,27 +11,27 @@
 
 List each test you wrote and briefly explain **what bug or regression it prevents**.
 
-### 1. Test Name:Check for positive subtotal
+### 1. Test Name: throws error for invalid subtotal
 **What it protects against:**
-<!-- it protects from dealing with negative numbers -->
+<!-- it protects from dealing with negative numbers and invalid data types -->
 
 ---
 
-### 2. Test Name:Check for invalid sub total
-**What it protects against:**  
-<!-- it protects from ivalid data type other than number -->
-
----
-
-### 3. Test Name:5% automatic discount applied
+### 2. Test Name:5% automatic discount applied
 **What it protects against:**  
 <!-- it applies 5% discount only on the amount greater equal to 1000 -->
 
 ---
 
-### 4. Test Name:SAVE10 gives 10% discount
+### 3. Test Name:SAVE10 gives 10% discount
 **What it protects against:**  
 <!-- it checks the minimum of 100 or 10% discount on the amount -->
+
+---
+
+### 4. Test Name:FLAT50 subtracts 50
+**What it protects against:**  
+<!-- it checks the subtractionj of 50 from the amount-->
 ---
 
 ### 5. Test Name:Invalid coupon throws error"
